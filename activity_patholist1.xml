@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patholist1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Choose Pathology :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorLink="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/A1"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="153dp"
+        android:text="Dr Seth's Pathology Lab" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="132dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/A1"
+        android:layout_alignStart="@+id/C1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="179dp"
+        android:text="North Delhi Pathology Clinic" />
+
+    <Button
+        android:id="@+id/C1"
+        android:layout_width="129dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:text="JDAR Pathology Lab" />
+
+</RelativeLayout>
